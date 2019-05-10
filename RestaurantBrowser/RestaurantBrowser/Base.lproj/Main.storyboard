@@ -18,38 +18,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="KfZ-eB-8fU">
-                                <rect key="frame" x="0.0" y="144" width="414" height="256"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location-permission" translatesAutoresizingMaskIntoConstraints="NO" id="2jn-pe-YbV">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="128"/>
-                                    </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="mFg-0F-JSy">
-                                        <rect key="frame" x="0.0" y="128" width="414" height="128"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Need your location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tb5-tE-di3">
-                                                <rect key="frame" x="32" y="8" width="350" height="52"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please give us your GPS Location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qCL-km-kD4">
-                                                <rect key="frame" x="32" y="68" width="350" height="52"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <edgeInsets key="layoutMargins" top="8" left="32" bottom="8" right="32"/>
-                                    </stackView>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Zcv-N6-VCw">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="SsA-aK-OX8">
                                 <rect key="frame" x="0.0" y="746" width="414" height="100"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="grM-LQ-yoC">
-                                        <rect key="frame" x="32" y="8" width="350" height="42"/>
+                                        <rect key="frame" x="32" y="8" width="350" height="38"/>
                                         <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <edgeInsets key="layoutMargins" top="8" left="32" bottom="8" right="32"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" title="Allow">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -61,7 +36,8 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="woo-T2-95z">
-                                        <rect key="frame" x="32" y="50" width="350" height="42"/>
+                                        <rect key="frame" x="32" y="54" width="350" height="38"/>
+                                        <edgeInsets key="layoutMargins" top="8" left="32" bottom="8" right="32"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" title="No, Another Time">
                                             <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -74,19 +50,52 @@
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="XQn-Vx-Pyo"/>
+                                    <constraint firstAttribute="height" constant="100" id="uvv-tQ-Q1t"/>
                                 </constraints>
                                 <edgeInsets key="layoutMargins" top="8" left="32" bottom="8" right="32"/>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="71" translatesAutoresizingMaskIntoConstraints="NO" id="ubu-st-tgb">
+                                <rect key="frame" x="0.0" y="64" width="414" height="448"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location-permission" translatesAutoresizingMaskIntoConstraints="NO" id="2jn-pe-YbV">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="277"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="nPD-EZ-rCD">
+                                        <rect key="frame" x="0.0" y="348" width="414" height="100"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Need your location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tb5-tE-di3">
+                                                <rect key="frame" x="32" y="8" width="350" height="38"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please give us your GPS Location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qCL-km-kD4">
+                                                <rect key="frame" x="32" y="54" width="350" height="38"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="Txf-z9-qp0"/>
+                                        </constraints>
+                                        <edgeInsets key="layoutMargins" top="8" left="32" bottom="8" right="32"/>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="nPD-EZ-rCD" secondAttribute="trailing" id="OCx-xK-I5j"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Zcv-N6-VCw" secondAttribute="bottom" constant="16" id="26b-G3-xOQ"/>
-                            <constraint firstItem="KfZ-eB-8fU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4Kq-u9-vAV"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KfZ-eB-8fU" secondAttribute="trailing" id="4ZG-yp-nbg"/>
-                            <constraint firstItem="Zcv-N6-VCw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="55I-lI-H3M"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zcv-N6-VCw" secondAttribute="trailing" id="GfI-A4-7hO"/>
-                            <constraint firstItem="KfZ-eB-8fU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="ldi-vA-R4k"/>
+                            <constraint firstItem="ubu-st-tgb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="3UT-xt-33Q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SsA-aK-OX8" secondAttribute="trailing" id="6E8-zz-ysq"/>
+                            <constraint firstItem="SsA-aK-OX8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MKQ-39-qSU"/>
+                            <constraint firstItem="ubu-st-tgb" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="Nkv-9h-gD3"/>
+                            <constraint firstItem="ubu-st-tgb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ZTp-3R-Dcs"/>
+                            <constraint firstAttribute="trailing" secondItem="ubu-st-tgb" secondAttribute="trailing" id="gQ2-cU-YKy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SsA-aK-OX8" secondAttribute="bottom" constant="16" id="t9q-FN-YKn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -97,6 +106,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="location-permission" width="128" height="128"/>
+        <image name="location-permission" width="512" height="512"/>
     </resources>
 </document>
