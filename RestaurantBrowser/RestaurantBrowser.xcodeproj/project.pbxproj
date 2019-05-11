@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		48797CAD22854B9C000AC295 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48797CAC22854B9C000AC295 /* AppDelegate.swift */; };
-		48797CAF22854B9C000AC295 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48797CAE22854B9C000AC295 /* ViewController.swift */; };
 		48797CB222854B9C000AC295 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48797CB022854B9C000AC295 /* Main.storyboard */; };
 		48797CB422854B9D000AC295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48797CB322854B9D000AC295 /* Assets.xcassets */; };
 		48797CB722854B9D000AC295 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48797CB522854B9D000AC295 /* LaunchScreen.storyboard */; };
@@ -25,7 +24,6 @@
 /* Begin PBXFileReference section */
 		48797CA922854B9C000AC295 /* RestaurantBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48797CAC22854B9C000AC295 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		48797CAE22854B9C000AC295 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		48797CB122854B9C000AC295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48797CB322854B9D000AC295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48797CB622854B9D000AC295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,7 +71,6 @@
 				48B705D82286F88E009B3BC5 /* Services */,
 				48B705C12286EF5C009B3BC5 /* Screen */,
 				48797CAC22854B9C000AC295 /* AppDelegate.swift */,
-				48797CAE22854B9C000AC295 /* ViewController.swift */,
 				48797CB022854B9C000AC295 /* Main.storyboard */,
 				48797CB322854B9D000AC295 /* Assets.xcassets */,
 				48797CB522854B9D000AC295 /* LaunchScreen.storyboard */,
@@ -229,7 +226,6 @@
 				48B705C92286F17E009B3BC5 /* DetailsFoodView.swift in Sources */,
 				48B705CE2286F35E009B3BC5 /* RestaurantTableViewController.swift in Sources */,
 				48B705CB2286F2CE009B3BC5 /* DetailsFoodViewController.swift in Sources */,
-				48797CAF22854B9C000AC295 /* ViewController.swift in Sources */,
 				48B705D72286F54E009B3BC5 /* LocationViewController.swift in Sources */,
 				48B705D12286F39B009B3BC5 /* RestaurantTableViewCell.swift in Sources */,
 				48797CAD22854B9C000AC295 /* AppDelegate.swift in Sources */,

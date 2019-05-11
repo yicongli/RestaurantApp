@@ -23,11 +23,19 @@ final class LocationServices: NSObject {
         manager.delegate = self
     }
     
-    var newLocation: ((Result<CLLocation>) -> Void)?
+    var newLocation: ((Result<CLLocation>) -> Void)? 
     var didChangeStatus:((Bool) -> Void)?
     
     var status: CLAuthorizationStatus {
         return CLLocationManager.authorizationStatus()
+    }
+    
+    func requestLocationAuthorization() {
+        manager.requestWhenInUseAuthorization()
+    }
+    
+    func getLocation() {
+        manager.requestLocation()
     }
 }
 
@@ -48,7 +56,6 @@ extension LocationServices: CLLocationManagerDelegate {
             didChangeStatus?(false)
         default:
             didChangeStatus?(true)
-            <#code#>
         }
     }
 }
