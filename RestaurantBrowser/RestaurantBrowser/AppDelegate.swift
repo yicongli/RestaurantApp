@@ -11,9 +11,12 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    let window = UIWindow() // The main window
-    let locationService = LocationServices() // the manager for handling location service
-    let storyBoard = UIStoryboard(name: "Main", bundle: nil) // get the UI from story borad
+    /// The main window
+    let window = UIWindow()
+    /// the manager for handling location service
+    let locationService = LocationServices()
+    /// get the UI from story borad
+    let storyBoard = UIStoryboard(name: "Main", bundle: nil) 
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions
